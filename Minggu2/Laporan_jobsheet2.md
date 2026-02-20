@@ -29,4 +29,4 @@ instansiasi! Apa nama object yang dihasilkan?
 3. Mengapa hasil output pemanggilan method tampilkanInformasi() pertama dan kedua berbeda?
 
 Jawaban 2.2.3
-1. 
+1.
