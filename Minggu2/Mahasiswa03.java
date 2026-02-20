@@ -26,7 +26,7 @@ public class Mahasiswa03 {
         if (ipk >= 3.5) {
             return "Kinerja sangat baik";
         } else if (ipk >= 3.0) {
-            return "Kinerja baik";
+            return "Kinerja baik ";
         } else if (ipk >= 2.0) {
             return "Kinerja cukup";
         } else {
