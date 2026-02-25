@@ -4,42 +4,35 @@ public class DosenMain {
     public static void main(String[] args) {
 
         Dosen dsn1 = new Dosen();
-        dsn1.idDosen = "BDS";
-        dsn1.nama = "Budi Santoso";
+        dsn1.idDosen = "RPL";
+        dsn1.nama = "Andi Pratama";
         dsn1.statusAktif = true;
-        dsn1.tahunBergabung = 2010;
-        dsn1.bidangKeahlian = "Algoritma dan Struktur Data";
+        dsn1.tahunBergabung = 2012;
+        dsn1.bidangKeahlian = "Rekayasa Perangkat Lunak";
 
         System.out.println("Data Dosen 1");
         dsn1.tampilInformasi();
 
-        System.out.println("\nMengubah Status");
         dsn1.ubahStatus(false);
-
-        System.out.println("\nMenghitung Masa Kerja");
         dsn1.hitungMasaKerja(2026);
-
-        System.out.println("\nMengubah Bidang Keahlian");
-        dsn1.ubahKeahlian("Basis Data");
-
-        System.out.println("\nData Dosen 1 Setelah Diubah");
+        dsn1.ubahKeahlian("Kecerdasan Buatan");
         dsn1.tampilInformasi();
 
-        Dosen dsn2 = new Dosen("STR", "Siti Rahayu", true, 2015, "Matematika");
+
+        Dosen dsn2 = new Dosen(
+                "JST",
+                "Dewi Lestari",
+                true,
+                2018,
+                "Jaringan Komputer"
+        );
 
         System.out.println("\nData Dosen 2");
         dsn2.tampilInformasi();
 
-        System.out.println("\nMengubah Status");
-        dsn2.ubahStatus(false);
-
-        System.out.println("\nMenghitung Masa Kerja");
+        dsn2.ubahStatus(true);
         dsn2.hitungMasaKerja(2026);
-
-        System.out.println("\nMengubah Bidang Keahlian");
-        dsn2.ubahKeahlian("Machine Learning");
-
-        System.out.println("\nData Dosen 2 Setelah Diubah");
+        dsn2.ubahKeahlian("Keamanan Siber");
         dsn2.tampilInformasi();
     }
 }
