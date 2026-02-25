@@ -74,14 +74,36 @@ berparameter dari class Mahasiswa!
 Jawaban 2.3.3
 
 1.<img width="544" height="118" alt="image" src="https://github.com/user-attachments/assets/cb3d7af9-5a57-428c-b556-008993d9c71f" />
+  
   Pada baris ke 14-19
 2. Pada baris berikut dilakukan instansiasi object sekaligus instalisasi atribut dan method objek tersebut 
 3. Jika konstruktor default dihapus maka akan terjadi error dikarenakan pada class mahasiswaMain masih terdapat pemanggilan new Mahasiswa
 4. Tidak harus diakses secara berurutan, karena semua object bisa dipanggil secara bebas
 5. Code
 
-
 <img width="996" height="496" alt="image" src="https://github.com/user-attachments/assets/0aa5cef7-99f7-45ea-ae52-9ff90668b3f2" />
 
 Output
+
 <img width="230" height="289" alt="image" src="https://github.com/user-attachments/assets/0dd692a4-47c8-4037-a8af-bd82d45c5866" />
+
+Latihan Praktikum
+1. Code 
+
+<img width="1571" height="852" alt="image" src="https://github.com/user-attachments/assets/cef66c92-dbfe-4c5d-aef9-7c99935c2424" />
+
+<img width="1568" height="533" alt="image" src="https://github.com/user-attachments/assets/88f9293a-530d-400c-932e-fd3e02b2dd5a" />
+
+Output
+
+<img width="476" height="533" alt="image" src="https://github.com/user-attachments/assets/8e27111b-6207-4685-85c4-039933189c8b" />
+
+2. Code
+
+<img width="834" height="786" alt="image" src="https://github.com/user-attachments/assets/81656d22-4025-4db0-9912-744da22d5134" />
+
+<img width="629" height="779" alt="image" src="https://github.com/user-attachments/assets/61f8e95b-2ad7-431f-adc3-9a509f6dadcf" />
+
+Output
+
+<img width="415" height="665" alt="image" src="https://github.com/user-attachments/assets/e55ccb53-f801-4e02-add6-e9d2f965a25a" />
