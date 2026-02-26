@@ -7,7 +7,7 @@ public class MataKuliahDemo {
         Scanner sc = new Scanner(System.in);
         MataKuliah03[] arrayOfMatakuliah = new MataKuliah03[3];
 
-        String kode, nama, dummy;
+        String kode, nama, dummy, ruang;
         int sks, jumlahJam;
 
         for (int i = 0; i < 3; i++) {
@@ -27,9 +27,13 @@ public class MataKuliahDemo {
             dummy = sc.nextLine();
             jumlahJam = Integer.parseInt(dummy);
 
+            System.out.print("Ruang        : ");
+            ruang = sc.nextLine();
+
             System.out.println("------------------------------------");
 
             arrayOfMatakuliah[i] = new MataKuliah03(kode, nama, sks, jumlahJam);
+            arrayOfMatakuliah[i].tambahData(ruang);
         }
 
         for (int i = 0; i < 3; i++) {
@@ -38,6 +42,7 @@ public class MataKuliahDemo {
             System.out.println("Nama       : " + arrayOfMatakuliah[i].nama);
             System.out.println("Sks        : " + arrayOfMatakuliah[i].sks);
             System.out.println("Jumlah Jam : " + arrayOfMatakuliah[i].jumlahJam);
+            System.out.println("Ruang      : " + arrayOfMatakuliah[i].ruang);
             System.out.println("--------------------------------------");
         }
     }
