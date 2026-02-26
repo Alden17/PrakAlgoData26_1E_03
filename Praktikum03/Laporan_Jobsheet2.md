@@ -36,3 +36,39 @@ Output
 2. Tidak ada kode untuk array index 0 jadi masih bersifat null
 
 
+**Percobaan 3**
+
+<img width="671" height="318" alt="image" src="https://github.com/user-attachments/assets/99fa5791-b242-48a8-b6b0-9cdbfaf2d827" />
+
+<img width="938" height="885" alt="image" src="https://github.com/user-attachments/assets/571470f1-abea-441c-bcd4-1a352b1172ca" />
+
+Output
+
+<img width="341" height="673" alt="image" src="https://github.com/user-attachments/assets/e5169d48-d2d9-461e-9a6a-385868e8bb4c" />
+
+**Pertanyaan**
+1. Ya bisa, Contohnya adalah
+
+<img width="576" height="224" alt="image" src="https://github.com/user-attachments/assets/617d2a4e-ae6a-4abf-873c-337daf025628" />
+
+2. <img width="634" height="411" alt="image" src="https://github.com/user-attachments/assets/3626a81f-8282-43c4-a9db-a11a0d6e24e3" />
+
+<img width="625" height="827" alt="image" src="https://github.com/user-attachments/assets/567c80df-a8c9-4d87-b7f1-1d4af934a056" />
+
+Output
+
+<img width="336" height="752" alt="image" src="https://github.com/user-attachments/assets/2949ddb2-c45f-49a2-8e5d-1debc7fe0f56" />
+
+3. <img width="683" height="570" alt="image" src="https://github.com/user-attachments/assets/b98522c0-b6cc-4226-9ac9-a8559e407a70" />
+
+  <img width="1543" height="889" alt="image" src="https://github.com/user-attachments/assets/c272f7dc-b73c-44c6-b05c-b67b9e227937" />
+
+Output
+
+<img width="336" height="752" alt="Screenshot 2026-02-26 101511" src="https://github.com/user-attachments/assets/23a01834-3286-4650-9d06-a97deb41da29" />
+
+4. <img width="715" height="818" alt="image" src="https://github.com/user-attachments/assets/3bdcdf87-5ed5-4a3c-9b72-230e4090852d" />
+
+<img width="295" height="534" alt="image" src="https://github.com/user-attachments/assets/b098cb9a-faf9-4671-b3d3-841a4b9e12b1" />
+
+
