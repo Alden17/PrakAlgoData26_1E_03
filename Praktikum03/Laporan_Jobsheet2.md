@@ -71,4 +71,11 @@ Output
 
 <img width="295" height="534" alt="image" src="https://github.com/user-attachments/assets/b098cb9a-faf9-4671-b3d3-841a4b9e12b1" />
 
+**Tugas**
+1.  <img width="796" height="328" alt="image" src="https://github.com/user-attachments/assets/ba710d69-26b3-4bd2-b168-bc7d4d1578f9" />
 
+<img width="1537" height="917" alt="image" src="https://github.com/user-attachments/assets/bfab3aa5-963a-4699-a1a2-5a0c4baac2a3" />
+
+<img width="1568" height="316" alt="image" src="https://github.com/user-attachments/assets/5fff922b-d9f6-4bc6-98b3-62ebf066b14a" />
+
+<img width="373" height="670" alt="image" src="https://github.com/user-attachments/assets/67509c63-ba7a-47b8-be2b-93728d352c5c" />
