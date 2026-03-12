@@ -34,6 +34,7 @@ else : menjalankan rekursi untuk menghitung n × faktorial(n-1)
 <img width="690" height="618" alt="image" src="https://github.com/user-attachments/assets/8380864e-f887-41ee-8c01-ebefcd46c95a" />
 
 Output
+
 <img width="341" height="232" alt="image" src="https://github.com/user-attachments/assets/c3687b8c-c3ef-48d5-8dad-cea94d4c598f" />
 
 **Pertanyaan Praktikum 2**
@@ -47,3 +48,21 @@ Output
    pangkatDC() → menghitung pangkat dengan rekursi yang membagi masalah menjadi lebih kecil lalu menggabungkan hasilnya
    
 **Praktikum 3**
+
+<img width="553" height="586" alt="image" src="https://github.com/user-attachments/assets/17bf9cde-a5d1-4dc9-83e2-d9c7916947e0" />
+
+<img width="1006" height="479" alt="image" src="https://github.com/user-attachments/assets/8b61a090-59d8-4c6e-b358-28f3f51ae9c7" />
+
+Output
+
+<img width="459" height="164" alt="image" src="https://github.com/user-attachments/assets/37261bf5-339a-413d-8af0-d3aff62f6fc6" />
+
+**Pertanyaan Praktikum 3**
+1. Variabel mid digunakan untuk membagi array menjadi dua bagian, yaitu bagian kiri dan bagian kanan agar bisa diproses dengan metode Divide and Conquer.
+2. Statement tersebut digunakan untuk menghitung jumlah pada bagian kiri dan bagian kanan array secara rekursif.
+3. Agar mendapatkan total seluruh nilai array, keduanya harus dijumlahkan.
+4. Base case dari totalDC() adalah l == r
+5. Method totalDC() bekerja dengan membagi array menjadi dua bagian, menghitung jumlah masing-masing bagian secara rekursif, lalu menjumlahkan hasilnya untuk mendapatkan total keseluruhan.
+
+**Tugas**
+
