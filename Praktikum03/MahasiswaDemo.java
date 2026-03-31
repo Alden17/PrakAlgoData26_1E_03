@@ -20,7 +20,7 @@ public class MahasiswaDemo {
 
             System.out.print("Kelas : ");
             arrayOfMahasiswa[i].kelas = sc.nextLine();
-
+            
             System.out.print("IPK   : ");
             dummy = sc.nextLine();
             arrayOfMahasiswa[i].ipk = Float.parseFloat(dummy);
@@ -30,7 +30,7 @@ public class MahasiswaDemo {
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Data Mahasiswa ke-" + (i + 1));
-           arrayOfMahasiswa[i].cetakInfo();
+            arrayOfMahasiswa[i].cetakInfo();
             System.out.println("---------------------------------------");
         }
     }
