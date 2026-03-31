@@ -79,3 +79,18 @@ Output
 <img width="1568" height="316" alt="image" src="https://github.com/user-attachments/assets/5fff922b-d9f6-4bc6-98b3-62ebf066b14a" />
 
 <img width="373" height="670" alt="image" src="https://github.com/user-attachments/assets/67509c63-ba7a-47b8-be2b-93728d352c5c" />
+
+2. class dosenDemo
+
+<img width="1563" height="906" alt="image" src="https://github.com/user-attachments/assets/de3550bb-fb50-4d42-a488-1ac36b0316b0" />
+
+<img width="890" height="496" alt="image" src="https://github.com/user-attachments/assets/dec2b8b2-aa45-4f63-b00a-5d74d4f19edb" />
+
+class dataDosen
+
+<img width="921" height="895" alt="image" src="https://github.com/user-attachments/assets/602761e3-d92b-4a3c-a759-c8407c1a93f9" />
+
+<img width="801" height="791" alt="image" src="https://github.com/user-attachments/assets/522071d9-a349-466c-a3d9-a912e920b6cd" />
+
+<img width="1564" height="860" alt="image" src="https://github.com/user-attachments/assets/cb3359e2-0801-4d80-a76e-1a7531f58b5c" />
+
