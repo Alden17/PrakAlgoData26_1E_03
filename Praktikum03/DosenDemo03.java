@@ -55,5 +55,15 @@ public class DosenDemo03 {
             no++;
 
         }
+        DataDosen03 data = new DataDosen03();
+
+        System.out.println("\n=== HASIL PENGOLAHAN DATA ===");
+        data.tampilSemua(arrayOfDosen03);
+        data.hitungGender(arrayOfDosen03);
+        data.rataUsia(arrayOfDosen03);
+        data.cariTertua(arrayOfDosen03);
+        data.cariTermuda(arrayOfDosen03);
+
+        alden.close();
     }
 }
