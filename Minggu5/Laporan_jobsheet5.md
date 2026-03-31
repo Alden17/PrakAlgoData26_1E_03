@@ -65,4 +65,15 @@ Output
 5. Method totalDC() bekerja dengan membagi array menjadi dua bagian, menghitung jumlah masing-masing bagian secara rekursif, lalu menjumlahkan hasilnya untuk mendapatkan total keseluruhan.
 
 **Tugas**
+class Nilai
+
+<img width="822" height="403" alt="image" src="https://github.com/user-attachments/assets/1c60d0aa-0363-4580-b111-407bdd9daba3" />
+
+class NilaiMain
+
+<img width="656" height="800" alt="image" src="https://github.com/user-attachments/assets/06528bf1-f281-4e5e-87ba-31feceff5faa" />
+
+Output
+
+<img width="416" height="105" alt="image" src="https://github.com/user-attachments/assets/b143205d-c6a0-4cb0-9bf0-28719fc2874a" />
 
