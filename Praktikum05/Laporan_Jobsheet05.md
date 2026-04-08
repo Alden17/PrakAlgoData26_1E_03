@@ -42,3 +42,32 @@ Untuk mencari indeks mahasiswa yang memiliki nilai IPK paling kecil (minimum) pa
 **Pertanyaan**
 <img width="492" height="844" alt="image" src="https://github.com/user-attachments/assets/3d5ea53d-d688-4df1-b7f2-8910465746a9" />
 
+**Latihan Praktikum**
+Class Dosen
+<img width="833" height="482" alt="image" src="https://github.com/user-attachments/assets/dc816591-d809-4696-911b-35d08a6df6f7" />
+
+Class DataDosen
+<img width="815" height="917" alt="image" src="https://github.com/user-attachments/assets/87871156-ecb5-4ae7-9e15-6abc2cbb3824" />
+
+<img width="646" height="340" alt="image" src="https://github.com/user-attachments/assets/eb88e640-5939-4a65-9387-4bc586075ca7" />
+
+Class DosenMain
+<img width="880" height="910" alt="image" src="https://github.com/user-attachments/assets/6099cd46-417e-4998-82c0-b9b4a0ccc266" />
+
+<img width="951" height="562" alt="image" src="https://github.com/user-attachments/assets/39f2ab89-a937-42be-822f-28b93732f341" />
+
+Output
+1. Tambah Dosen
+   <img width="420" height="236" alt="image" src="https://github.com/user-attachments/assets/487ba872-363f-4bca-aabd-507965ee66e6" />
+   
+2. Tampil Dosen
+   <img width="467" height="451" alt="image" src="https://github.com/user-attachments/assets/3a9658c3-58df-45dd-a9de-f086bacec319" />
+
+3. (Bubble Sort - Muda ke Tua)
+   <img width="477" height="451" alt="image" src="https://github.com/user-attachments/assets/72506d4f-c072-4440-a3b9-8dc793e534d4" />
+
+4. (Selection Sort - Tua ke Muda)
+   <img width="455" height="458" alt="image" src="https://github.com/user-attachments/assets/39d21c02-884a-4e4d-8913-995b6b92a3fe" />
+
+5. (Insertion Sort - Muda ke Tua)
+   <img width="476" height="449" alt="image" src="https://github.com/user-attachments/assets/f0c798b0-a391-4632-ab22-4fef3e2e2d75" />
