@@ -29,3 +29,16 @@
 1b. Setiap tahap, elemen terbesar sudah berada di posisi akhir sehingga tidak perlu dibandingkan lagi. Ini membuat proses lebih efisien
 1c. Maka i akan berulang sebanyak 49 kali dan memiliki 49 tahap bubble short 
 2. <img width="897" height="637" alt="image" src="https://github.com/user-attachments/assets/78a92a07-5098-444d-bc88-0d117a399510" />
+
+**Mengurutkan Data Mahasiswa Berdasarkan IPK (Selection Sort)**
+<img width="603" height="874" alt="image" src="https://github.com/user-attachments/assets/c05f8ae0-76dc-49c6-9dac-76028938f1df" />
+
+**Pertanyaan**
+Untuk mencari indeks mahasiswa yang memiliki nilai IPK paling kecil (minimum) pada bagian array yang belum terurut
+
+**Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort**
+<img width="451" height="821" alt="image" src="https://github.com/user-attachments/assets/f3b613d9-5716-4356-bdd4-08b9fa780b47" />
+
+**Pertanyaan**
+<img width="492" height="844" alt="image" src="https://github.com/user-attachments/assets/3d5ea53d-d688-4df1-b7f2-8910465746a9" />
+
