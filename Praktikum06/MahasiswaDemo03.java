@@ -8,7 +8,11 @@ public class MahasiswaDemo03 {
 
         Scanner sc = new Scanner(System.in);
 
-        for (int i = 1; i <= 5; i++) {
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumMhs = sc.nextInt();
+        sc.nextLine();
+
+        for (int i = 1; i <= jumMhs; i++) {
             System.out.print("Nama: ");
             String nama = sc.nextLine();
 
@@ -26,22 +30,21 @@ public class MahasiswaDemo03 {
             list.tambah(new Mahasiswa03(nim, nama, kelas, ipk));
         }
 
-        System.out.println("Data mahasiswa sebelum sorting: ");
         list.tampil();
 
-        System.out.println("Data yang sudah terurut menggunakan INSERTION SORT (DESC)");
-        list.insertionSort();
-        list.tampil();
-
-        System.out.println("======================================");
+        System.out.println("----------------------------------------------");
         System.out.println("Pencarian data");
-        System.out.println("======================================");
+        System.out.println("----------------------------------------------");
 
-        System.out.print("Masukkan IPK yang dicari: ");
+        System.out.println("masukkan ipk mahasiswa yang dicari: ");
+        System.out.print("IPK: ");
         double cari = sc.nextDouble();
 
-        System.out.println("Menggunakan Sequential Searching");
-        int posisi = list.sequentialSearching(cari);
+        System.out.println("----------------------------------------------");
+        System.out.println("menggunakan binary search");
+        System.out.println("----------------------------------------------");
+
+        int posisi = list.findBinarySearch(cari, 0, 4);
 
         list.tampilPosisi(cari, posisi);
         list.tampilDataSearch(cari, posisi);
