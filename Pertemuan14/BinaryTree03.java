@@ -181,4 +181,72 @@ public class BinaryTree03 {
             }
         }
     }
+
+    // Tugas 1
+    public void addRekursif(Mahasiswa03 mahasiswa) {
+        root = addRekursif(root, mahasiswa);
+    }
+
+    public Node03 addRekursif(Node03 current, Mahasiswa03 mahasiswa) {
+        if (current == null) {
+            return new Node03(mahasiswa);
+        }
+
+        if (mahasiswa.ipk < current.mahasiswa.ipk) {
+            current.left = addRekursif(current.left, mahasiswa);
+        } else {
+            current.right = addRekursif(current.right, mahasiswa);
+        }
+
+        return current;
+    }
+
+    // Tugas 2
+    void cariMinIPK() {
+        if (root == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        Node03 current = root;
+
+        while (current.left != null) {
+            current = current.left;
+        }
+
+        current.mahasiswa.tampilInformasi();
+    }
+    
+    // Tugas 3
+    void cariMaxIPK() {
+        if (root == null) {
+            System.out.println("Tree kosong");
+            return;
+        }
+
+        Node03 current = root;
+
+        while (current.right != null) {
+            current = current.right;
+        }
+
+        current.mahasiswa.tampilInformasi();
+    }
+
+    void tampilMahasiswaIPKdiAtas(double ipkBatas) {
+        tampilMahasiswaIPKdiAtas(root, ipkBatas);
+    }
+
+    void tampilMahasiswaIPKdiAtas(Node03 node, double ipkBatas) {
+        if (node != null) {
+
+            tampilMahasiswaIPKdiAtas(node.left, ipkBatas);
+
+            if (node.mahasiswa.ipk > ipkBatas) {
+                node.mahasiswa.tampilInformasi();
+            }
+
+            tampilMahasiswaIPKdiAtas(node.right, ipkBatas);
+        }
+    }
 }

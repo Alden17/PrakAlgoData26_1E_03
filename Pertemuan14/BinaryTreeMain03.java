@@ -4,8 +4,9 @@ public class BinaryTreeMain03 {
     public static void main(String[] args) {
 
         BinaryTree03 bst = new BinaryTree03();
-        {
-            bst.add(new Mahasiswa03("244160121", "Ali", "A", 3.57));
+        {   
+            // Tugas 1 rekursif
+            bst.addRekursif(new Mahasiswa03("244160121", "Ali", "A", 3.57));
             bst.add(new Mahasiswa03("244160221", "Badar", "B", 3.85));
             bst.add(new Mahasiswa03("244160185", "Candra", "C", 3.21));
             bst.add(new Mahasiswa03("244160220", "Dewi", "B", 3.54));
@@ -41,6 +42,16 @@ public class BinaryTreeMain03 {
 
             System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa (in order traversal):");
             bst.traverseInOrder(bst.root);
+
+            // Tugas 2 dan 3
+            System.out.println("\nIPK Terkecil");
+            bst.cariMinIPK();
+
+            System.out.println("\nIPK Terbesar");
+            bst.cariMaxIPK();
+
+            System.out.println("\nMahasiswa dengan IPK di atas 3.50");
+            bst.tampilMahasiswaIPKdiAtas(3.50);
         }
     }
 }
