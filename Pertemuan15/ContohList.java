@@ -4,8 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ContohList {
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) {        
         List l = new ArrayList();
         l.add(1);
         l.add(2);
@@ -19,7 +18,6 @@ public class ContohList {
         System.out.printf("Elemen 0: %d total elemen: %d elemen terakhir: %s\n",
                 l.get(0), l.size(), l.get(l.size() - 1));
 
-       
         List<String> names = new LinkedList<>();
         names.add("Noureen");
         names.add("Akhleema");
@@ -34,6 +32,15 @@ public class ContohList {
                 names.get(0), names.size(), names.get(names.size() - 1));
         System.out.println("Names: " + names.toString());
 
-    
+        LinkedList<String> names2 = new LinkedList<>();
+        names2.add("Noureen");
+        names2.add("Akhleema");
+        names2.add("Shannum");
+        names2.add("Uwais");
+        names2.add("Al-Qarni");
+        names2.push("Mei-mei");
+        System.out.printf("Elemen 0: %s total elemen: %d elemen terakhir: %s\n",
+                names2.getFirst(), names2.size(), names2.getLast());
+        System.out.println("Names: " + names2.toString());
     }
 }
